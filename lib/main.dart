@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: AnimatedDefaultTextStyle(
-          style: TextStyle(fontSize: _fontSize),
+          style: TextStyle(fontSize: _fontSize, color: Colors.black),
           duration: const Duration(seconds: 1),
           child: Text('Hello, App Akademie!'),
         ),
